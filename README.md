@@ -2,7 +2,7 @@
 
 This is a non-privileged utility that allows users to set-up commands to be executed in response to key-strokes. These commands will only ever run in the proper window-context.
 
-Short-keys is meant to be simple yet powerful; run in unpriviliged mode; be context-aware by default; have a single small configuration file; and be restart-less. Its "configure once and forget" approach doesn't require launching before use and is transparent, with no interface.
+Short Keys is meant to be simple yet powerful; run in unpriviliged mode; be context-aware by default; have a single small configuration file; and be restart-less. Its "configure once and forget" approach doesn't require launching before use and is transparent, with no interface.
 
 ## Requirements
 
@@ -41,7 +41,7 @@ For example: set the *a* key to run `/path/to/shortkeys/press.js a`; or *Control
 
 You can also pass multiple arguments to be executed in sequence in the order they are provided. This can be helpful if you want to perform some simple synchronization (for example binding *c* to `/path/to/shortkeys/press.js c1 c2 c3` to execute 3 commands in sequence).
 
-If your system doesn't allow script to be run directly, you may have to use instead: `/path/to/deno --allow-read --allow-run /path/to/shortkeys/press.js` (or the shorter `--allow-all`).
+If your system doesn't allow scripts to be run directly, you may have to use instead: `/path/to/deno --allow-read --allow-run /path/to/shortkeys/press.js` (or the shorter `--allow-all`).
 
 ## See also
 
