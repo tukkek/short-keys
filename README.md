@@ -45,7 +45,7 @@ If your system doesn't allow scripts to be run directly, you may have to use ins
 
 ## See also
 
-``xdotool` can emulate every typical IO operation such as keyboard and mouse actions. You can leverage this for common key-remapping use-cases in your commands. Read its documentation for more details: https://github.com/jordansissel/xdotool/blob/master/xdotool.pod.
+`xdotool` can emulate every typical IO operation such as keyboard and mouse actions. You can leverage this for common key-remapping use-cases in your commands. Read its documentation for more details: https://github.com/jordansissel/xdotool/blob/master/xdotool.pod.
 
 There are other key-mapying tools that run in priviliged mode but they can have their own usability down-sides. They are however more user-friendly if you don't mind those!
 
